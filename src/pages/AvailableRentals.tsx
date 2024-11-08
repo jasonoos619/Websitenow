@@ -3,7 +3,7 @@ import React from 'react';
 const properties = [
   {
     id: 1,
-    title: 'Luxury Downtown Apartment',
+    title: 'Suxury Downtown Apartment',
     price: '$2,500/month',
     beds: 2,
     baths: 2,
