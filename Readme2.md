@@ -14,7 +14,7 @@ Websitenow is a React-based web application that provides a chatbot interface fo
 - **Icons**: Lucide React
 
 ## Step-by-Step Instructions
-
+###Use Git Bash###
 ### 1. Clone the Repository
 To get started, clone the repository to your local machine:
 git clone https://github.com/jasonoos619/Websitenow.git
