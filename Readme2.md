@@ -76,3 +76,33 @@ To deploy the application on a local server, follow these steps:
 
 ## Conclusion
 Websitenow is a powerful tool for providing information and assistance through a chatbot interface. With the ability to filter FAQs and interact with users, it enhances the user experience significantly. Feel free to explore the code and customize it to fit your needs!
+
+
+***Making Changes**
+
+Option 1: Navigate to the Existing Directory
+If you already have the Websitenow directory and want to work with it, you can navigate into that directory instead of cloning it again:
+Bash
+cd Websitenow
+
+Once inside the directory, you can pull the latest changes from the remote repository:
+Bash
+git pull origin main
+Replace main with the name of your branch if it's different.
+
+Option 2: Remove the Existing Directory
+If you do not need the existing Websitenow directory and want to start fresh, you can remove it. Be cautious with this option, as it will delete all files in that directory.
+
+Remove the Directory:
+Bash
+   rm -rf Websitenow
+2. Clone the Repository Again:
+After removing the directory, you can clone the repository again:
+Bash
+   git clone https://github.com/jasonoos619/Websitenow.git
+Option 3: Clone into a Different Directory
+If you want to keep the existing Websitenow directory and clone the repository into a different directory, you can specify a new directory name when cloning:
+Bash
+git clone https://github.com/jasonoos619/Websitenow.git Websitenow-new
+This will create a new directory named Websitenow-new and clone the repository into it.
+
